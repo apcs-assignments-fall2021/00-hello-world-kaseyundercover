@@ -39,6 +39,26 @@ public class MyMain {
         int z = Integer.parseInt(y);
         z//=12
 
+        Scanner:
+        import java.util.scanner;
+
+        Scanner scan = new Scanner (system.in);
+        System.out.println("what's your name?");
+        String name = scan.next(); //next will get the next string
+        String line = scan.line(); //the whole line
+        int x = scan.nextInt(); //the next int
+
+        scan.close(); //ends it
+
+       System.out.println(); //adds a new line
+       System.out.print(); //no new line
+
+
+
+
+
+
+
 
 
 
